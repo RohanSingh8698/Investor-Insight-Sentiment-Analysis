@@ -8,17 +8,4 @@ NewsAPI
 Transformers
 Torch
 
-How to Run
-Install the required dependencies:
-
-bash
-Copy code
-pip install flask newsapi-python transformers torch
-Run the application:
-
-bash
-Copy code
-python app.py
-Open your browser and navigate to http://127.0.0.1:5000 to interact with the app.
-
 Enjoy exploring financial news insights with sentiment analysis and summarization!
