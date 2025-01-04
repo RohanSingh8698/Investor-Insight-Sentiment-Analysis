@@ -1,11 +1,24 @@
-I have used bert base uncased for financial news headline sentiment analysis and bart model for text summarization 
+This project focuses on analyzing financial news headlines to predict sentiments using the BERT base uncased model and summarizing text using the BART model. The application is built with Flask and integrates the NewsAPI for fetching news data.
 
-requirements to run the model is 
+Requirements
+To run this project, ensure you have the following installed:
 
-1) Flask 
-2) newsapi
-3) transformers
-4) torch
+Flask
+NewsAPI
+Transformers
+Torch
 
-to run the app in the terminal/command-prompt write
+How to Run
+Install the required dependencies:
+
+bash
+Copy code
+pip install flask newsapi-python transformers torch
+Run the application:
+
+bash
+Copy code
 python app.py
+Open your browser and navigate to http://127.0.0.1:5000 to interact with the app.
+
+Enjoy exploring financial news insights with sentiment analysis and summarization!
